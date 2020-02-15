@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/index_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:backgroundTintMode="multiply"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_weight="7"
+        android:background="#03C0A9" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/conrners"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif"
+        android:onClick="onZquestion"
+        android:paddingTop="-80dp"
+        android:paddingBottom="-80dp"
+        android:text="        开始刷题        "
+        android:textAllCaps="false"
+        android:textColor="#070701"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/my_fault_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/conrners"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif"
+        android:onClick="onCquestion"
+        android:paddingTop="-80dp"
+        android:paddingBottom="-80dp"
+        android:text="        我的错题        "
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/my_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/conrners"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif"
+        android:onClick="onSquestion"
+        android:paddingTop="-80dp"
+        android:paddingBottom="-80dp"
+        android:text="        我的收藏        "
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/conrners"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif"
+        android:onClick="onZquestion"
+        android:paddingTop="-80dp"
+        android:paddingBottom="-80dp"
+        android:text="        针对练习        "
+        android:textAllCaps="false"
+        android:textColor="#070701"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="376dp"
+        android:layout_height="141dp"
+        android:layout_weight="7"
+        android:backgroundTint="#00FCF9F9" />
+</LinearLayout>
